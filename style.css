@@ -111,6 +111,24 @@ nav {
   border-radius: 6px;
 }
 
+.btn-secondary {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+  margin-top: 1rem;
+}
+
+.btn-secondary:hover {
+  border-color: var(--orange);
+  color: var(--white);
+}
+
+.programme-stats {
+  margin-top: 3rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--border);
+}
+
 /* ===== PAGE OFFSET FOR FIXED NAV ===== */
 .hero {
   padding-top: calc(80px + 5rem);
@@ -378,6 +396,9 @@ img.about-photo {
 /* ===== REGISTER SECTION ===== */
 .register-section {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .register-section .section-body {
