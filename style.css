@@ -3,17 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg:           #F2EBD9;
-  --bg2:          #E8DFC9;
-  --card:         #EDE4D0;
-  --border:       #D5C9B0;
+  --bg:           #808080;
+  --bg2:          #F2EBD9;
+  --card:         #F2EBD9;
+  --border:       #9a9a9a;
   --orange:       #f97316;
   --saffron:      #f59e0b;
   --orange-glow:  rgba(249, 115, 22, 0.22);
   --french-blue:  #0054A4;
   --blue-glow:    rgba(0, 84, 164, 0.18);
-  --text:         #1a1a1a;
-  --muted:        #5a5a5a;
+  --text:         #e8e8e8;
+  --muted:        #cccccc;
   --white:        #ffffff;
   --font-display: 'Bebas Neue', Impact, sans-serif;
   --font-body:    'Inter', 'Segoe UI', system-ui, sans-serif;
@@ -48,7 +48,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0.9rem 5%;
-  background: rgba(242, 235, 217, 0.92);
+  background: rgba(128, 128, 128, 0.92);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
@@ -186,7 +186,7 @@ nav {
   font-size: clamp(3rem, 8vw, 5.5rem);
   font-weight: 400;
   line-height: 1.05;
-  color: var(--text);
+  color: var(--white);
   margin-bottom: 1.4rem;
   max-width: 800px;
   letter-spacing: 0.02em;
