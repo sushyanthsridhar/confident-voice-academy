@@ -7,9 +7,9 @@
   --bg2:          #F2EBD9;
   --card:         #F2EBD9;
   --border:       #9a9a9a;
-  --orange:       #f97316;
-  --saffron:      #f59e0b;
-  --orange-glow:  rgba(249, 115, 22, 0.22);
+  --orange:       #e85d00;
+  --saffron:      #d97706;
+  --orange-glow:  rgba(232, 93, 0, 0.45);
   --french-blue:  #0054A4;
   --blue-glow:    rgba(0, 84, 164, 0.18);
   --text:         #e8e8e8;
@@ -176,9 +176,9 @@ nav {
 }
 
 .hero-title-logo {
-  width: min(600px, 90vw);
+  width: min(380px, 75vw);
   height: auto;
-  margin-bottom: 1.4rem;
+  margin-bottom: 0.5rem;
 }
 
 .hero h1 {
