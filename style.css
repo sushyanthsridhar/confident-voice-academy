@@ -3,17 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg:           #808080;
-  --bg2:          #F2EBD9;
-  --card:         #F2EBD9;
-  --border:       #9a9a9a;
-  --orange:       #e85d00;
-  --saffron:      #d97706;
-  --orange-glow:  rgba(232, 93, 0, 0.45);
-  --french-blue:  #0054A4;
-  --blue-glow:    rgba(0, 84, 164, 0.18);
+  --bg:           #0a0a0a;
+  --bg2:          #111111;
+  --card:         #161616;
+  --border:       #242424;
+  --orange:       #f97316;
+  --saffron:      #f59e0b;
+  --orange-glow:  rgba(249, 115, 22, 0.22);
   --text:         #e8e8e8;
-  --muted:        #cccccc;
+  --muted:        #888888;
   --white:        #ffffff;
   --font-display: 'Bebas Neue', Impact, sans-serif;
   --font-body:    'Inter', 'Segoe UI', system-ui, sans-serif;
@@ -48,7 +46,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0.9rem 5%;
-  background: rgba(128, 128, 128, 0.92);
+  background: rgba(10, 10, 10, 0.9);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
@@ -158,13 +156,8 @@ nav {
   transform: translateX(-50%);
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(0, 84, 164, 0.12) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(249, 115, 22, 0.1) 0%, transparent 70%);
   pointer-events: none;
-}
-
-.hero-logo {
-  width: min(420px, 85vw);
-  margin-bottom: 1.8rem;
 }
 
 .hero-eyebrow {
@@ -173,12 +166,6 @@ nav {
   text-transform: uppercase;
   color: var(--saffron);
   margin-bottom: 1.2rem;
-}
-
-.hero-title-logo {
-  width: min(380px, 75vw);
-  height: auto;
-  margin-bottom: 0.5rem;
 }
 
 .hero h1 {
